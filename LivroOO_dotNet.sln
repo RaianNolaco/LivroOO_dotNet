@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.4.33213.308
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LivroOO_dotNet.Capitulo_2", "LivroOO_dotNet.Capitulo_2\LivroOO_dotNet.Capitulo_2.csproj", "{4962FF96-71AA-430D-A8D7-25AA790B5581}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LivroOO_dotNet.Capitulo_3", "LivroOO_dotNet.Capitulo_3\LivroOO_dotNet.Capitulo_3.csproj", "{793F023A-727B-4FCC-B78B-43A9EF38F2B5}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{4962FF96-71AA-430D-A8D7-25AA790B5581}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4962FF96-71AA-430D-A8D7-25AA790B5581}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4962FF96-71AA-430D-A8D7-25AA790B5581}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4962FF96-71AA-430D-A8D7-25AA790B5581}.Release|Any CPU.Build.0 = Release|Any CPU
+		{793F023A-727B-4FCC-B78B-43A9EF38F2B5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{793F023A-727B-4FCC-B78B-43A9EF38F2B5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{793F023A-727B-4FCC-B78B-43A9EF38F2B5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{793F023A-727B-4FCC-B78B-43A9EF38F2B5}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {E48D10DA-053F-41A8-9302-6A3F57A972BF}
+	EndGlobalSection
+EndGlobal
