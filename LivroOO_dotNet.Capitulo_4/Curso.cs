@@ -6,7 +6,10 @@ using System.Threading.Tasks;
 
 namespace LivroOO_dotNet.Capitulo_4
 {
-    internal class Curso
+    public class Curso
     {
+        public string Nome { get; set; }
+        public int CargaHoraria { get; set; }
+
     }
 }
