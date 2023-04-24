@@ -1,4 +1,4 @@
-﻿namespace LivroOO_dotNet.Capitulo_3
+﻿namespace LivroOO_dotNet.Capitulo_3.Institucao_de_ensino
 {
     public class Instituicao
     {
@@ -10,17 +10,17 @@
         public void RegistrarDepartamento(Departamento dep)
         {
             if (qntDepartamentos < 10)
-                this.Departamentos[qntDepartamentos++] = dep;
+                Departamentos[qntDepartamentos++] = dep;
         }
 
         public int ObterQntDepartamentos()
         {
-            return this.qntDepartamentos;
+            return qntDepartamentos;
         }
 
         public Departamento ObterDepartamentoPorIndice(int indice)
         {
-            return this.Departamentos[indice];
+            return Departamentos[indice];
         }
     }
 }

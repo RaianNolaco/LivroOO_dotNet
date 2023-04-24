@@ -1,4 +1,4 @@
-﻿namespace LivroOO_dotNet.Capitulo_3
+﻿namespace LivroOO_dotNet.Capitulo_3.Institucao_de_ensino
 {
     public class Endereco
     {

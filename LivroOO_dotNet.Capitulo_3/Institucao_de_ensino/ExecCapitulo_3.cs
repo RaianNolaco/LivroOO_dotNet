@@ -4,23 +4,33 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace LivroOO_dotNet.Capitulo_3
+namespace LivroOO_dotNet.Capitulo_3.Institucao_de_ensino
 {
     public static class ExecCapitulo_3
     {
         public static void intituicao()
         {
-            var iesUTFPR = new Instituicao() {
+            var iesUTFPR = new Instituicao()
+            {
                 Nome = "UTFPR",
-                Endereco = "Medianeira"
+                Endereco = new Endereco{ 
+                    Rua =" Rua x",
+                    Bairro = "Bairro y",
+                    Numero = "12"
+                }
             };
-            
 
-            var iesCC = new Instituicao() {
+
+            var iesCC = new Instituicao()
+            {
                 Nome = "Casa do codigo",
-                Endereco = "São paulo"
+                Endereco = new Endereco{
+                    Rua =" Rua A",
+                    Bairro = "Bairro B",
+                    Numero = "132B"
+                }
             };
-         
+
 
             var depEnsino = new Departamento("Computação");
             var depAlimentos = new Departamento("Alimentos");
@@ -36,12 +46,15 @@ namespace LivroOO_dotNet.Capitulo_3
             {
                 Console.WriteLine($"==> {iesUTFPR.Departamentos[i].Nome}");
             }
+            Console.WriteLine($"==> {iesUTFPR.Endereco.Rua}");
 
-            Console.WriteLine(iesUTFPR.Nome);
-            for (int i = 0; i < iesUTFPR.ObterQntDepartamentos(); i++)
+
+            Console.WriteLine(iesCC.Nome);
+            for (int i = 0; i < iesCC.ObterQntDepartamentos(); i++)
             {
-                Console.WriteLine($"==> {iesUTFPR.Departamentos[i].Nome}");
+                Console.WriteLine($"==> {iesCC.Departamentos[i].Nome}");
             }
+            Console.WriteLine($"==> {iesCC.Endereco.Rua}");
 
 
         }

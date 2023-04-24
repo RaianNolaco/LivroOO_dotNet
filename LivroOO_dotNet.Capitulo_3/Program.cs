@@ -1,6 +1,5 @@
 ﻿// See https://aka.ms/new-console-template for more information
-using LivroOO_dotNet.Capitulo_3;
-
+using LivroOO_dotNet.Capitulo_3.Institucao_de_ensino;
 
 bool sair = false;
 while (!sair)
