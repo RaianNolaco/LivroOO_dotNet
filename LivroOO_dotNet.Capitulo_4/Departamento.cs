@@ -11,6 +11,11 @@ namespace LivroOO_dotNet.Capitulo_4
         public string Nome { get; set; }
         public IList<Curso> Cursos { get; } = new List<Curso>();
 
+        public Departamento(string nome)
+        {
+            Nome = nome;
+        }
+
         public void RegistrarCurso(Curso NovoCurso)
         {
             Cursos.Add(NovoCurso);
@@ -24,6 +29,17 @@ namespace LivroOO_dotNet.Capitulo_4
         public Curso ObterCursoPorIndice(int indice)
         {
             return Cursos[indice];
+        }
+
+        public void fecharDepartamento()
+        {
+            while (Cursos.Count >0)
+            {
+                Console.WriteLine($"Removendo curso: {Cursos[0].Nome}");
+                Cursos.RemoveAt(0);
+            }
+
+            Console.WriteLine("Departamento fechado");
         }
     }
 }

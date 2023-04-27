@@ -1,10 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace LivroOO_dotNet.Capitulo_3.Institucao_de_ensino
+﻿namespace LivroOO_dotNet.Capitulo_3.Institucao_de_ensino
 {
     public static class ExecCapitulo_3
     {
