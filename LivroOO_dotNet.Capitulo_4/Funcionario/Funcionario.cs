@@ -11,7 +11,7 @@ namespace LivroOO_dotNet.Capitulo_4.Funcionario
         public string Nome { get; set; }
         private Gerente gerente;
         public Gerente Gerente {
-            get { return this.gerente}
+            get { return this.gerente; }
             set
             {
                 if (this.gerente != null)
@@ -19,7 +19,8 @@ namespace LivroOO_dotNet.Capitulo_4.Funcionario
 
                 this.gerente = value;
 
-                if(this.gerente != null)
+                if (this.gerente != null)
+                    this.gerente.Funcionarios.Add(this);
             }
         }
     }
